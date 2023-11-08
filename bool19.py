@@ -8,4 +8,4 @@ def main(a):
     """
     # Write your code here
     return a % 4 == 0 and (a % 100 != 0 or a % 400 == 0) and a ** 2 > 10000
-print(main(10000))
+print(main(1000))
