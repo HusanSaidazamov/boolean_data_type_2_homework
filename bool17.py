@@ -14,4 +14,4 @@ def main(L, R):
     if uzunlik == L:
         return True
     return False
-print(main(12))    
+print(main(12,4))    
