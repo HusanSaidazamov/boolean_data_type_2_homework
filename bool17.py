@@ -1,4 +1,3 @@
-from math import pi
 def main(L, R):
     pi=3.141592653589793
     """
@@ -9,6 +8,10 @@ def main(L, R):
     Returns:
         bool
     """
-    # Write your code he 
-    return L==2*pi*R
-print(main(3*3.141592653589793))
+    # Write your code here
+
+    uzunlik = 2 * pi * R
+    if uzunlik == L:
+        return True
+    return False
+print(main(12))    
