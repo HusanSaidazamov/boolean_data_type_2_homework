@@ -8,5 +8,5 @@ def main(a):
     """
     # Write your code here
     return a % 4 == 0 and (a % 100 != 0 or a % 400 == 0)
-print(main(800))
+print(main(80))
         

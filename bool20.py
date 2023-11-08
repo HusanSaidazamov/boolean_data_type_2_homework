@@ -7,5 +7,18 @@ def main(a):
         bool
     """
     # Write your code here
-    return a < 10000 and sum(int(digit) for digit in str(a)) % 2 != 0
-print(main(1000))
+    s=0
+    s+=a%10
+    a//=10
+
+    s+=a%10
+    a//=10
+
+    s+=a%10
+    a//=10
+
+    s+=a%10
+    a//=10
+
+    return s%2==1
+print(main(3))
